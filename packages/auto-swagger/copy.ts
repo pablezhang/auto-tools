@@ -16,6 +16,7 @@ const pkg = require('./package.json');
 delete pkg.dependencies
 delete pkg.devDependencies
 pkg.main = 'index.js';
+pkg.bin['auto-swagger'] = 'index.js';
 
 fs.writeFileSync('dist/package.json', JSON.stringify(pkg, null, 2))
 console.log('复制成功')
