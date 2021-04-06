@@ -145,3 +145,4 @@ class </parentFunName/> { // 也可以去掉不封装为，单例模式、
 }
 export default new </parentFunName/>`;
 ```
+TODO:
