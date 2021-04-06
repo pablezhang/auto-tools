@@ -13,7 +13,6 @@ fs.copyFile('README.md', 'dist/README.md', function (err) {
 
 const pkg = require('./package.json');
 
-delete pkg.dependencies
 delete pkg.devDependencies
 pkg.main = 'index.js';
 pkg.bin['auto-swagger'] = 'index.js';

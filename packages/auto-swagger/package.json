@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/pablezhang/auto-swagger.git",
   "dependencies": {
-    "@types/inquirer": "^6.5.0",
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
@@ -39,6 +38,7 @@
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
+    "@types/inquirer": "^6.5.0",
     "@types/chalk": "^2.2.0",
     "@types/figlet": "^1.2.1",
     "@types/lodash": "^4.14.168",
