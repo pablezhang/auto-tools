@@ -1,8 +1,12 @@
 {
   "name": "auto-tools",
-  "private": false,
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.2.4"
   },
   "version": "1.0.0",
   "description": "一些自动化工具",
