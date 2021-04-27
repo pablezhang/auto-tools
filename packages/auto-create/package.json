@@ -1,0 +1,15 @@
+{
+  "name": "auto-create",
+  "version": "1.0.0",
+  "description": "A cli for create folders and files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create",
+    "files"
+  ],
+  "author": "luckybo",
+  "license": "ISC"
+}
